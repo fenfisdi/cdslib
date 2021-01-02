@@ -14,7 +14,7 @@ This projects began as a voluntary initiative from some members of the Fundament
 
 ### Why open source?
 
-We believe in the transformative power science has in society. We are committed to bring 
+We believe in the transformative power science has in society. We are committed to bring scientific knowledge to society and this is our way to help during this challenging scenario we are facing as humanity. 
 
 ## Who we are
 
