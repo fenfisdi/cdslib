@@ -60,4 +60,3 @@ For more information on our current sponsors visit:
 We pretend to extend our work beyond the COVID-19 pandemic to different diseases currently affecting human health or epidemics yet to come. According to the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services, future pandemics are expected to happen more often (https://www.ipbes.net/pandemics-media-release)
 
 
-
