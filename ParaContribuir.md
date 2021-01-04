@@ -82,12 +82,12 @@ Este documento brinda las convenciones de escritura de código Python para todos
       long_variable = 3
 ## Clases
 #### Nombramiento
-	Debe describir la función de clase, debe ser en singular y en convención pascal case.
+Debe describir la función de clase, debe ser en singular y en convención pascal case.
 	Las propiedades de la clase deben ser nombradas según convención del pep8 y ser claras. Se debe poder intuir cuál es su rol dentro de la clase
 #### Tamaño
-	La clase no debe superar las 250 líneas de código
+ La clase no debe superar las 250 líneas de código
 #### Documentación
-    Todas las clases deben llevar su respectiva documentación, al igual que cada una de sus funciones
+ Todas las clases deben llevar su respectiva documentación, al igual que cada una de sus funciones
 
 ## Métodos y funciones
   Los métodos o funciones deben ser precisas y tener funcionales muy específicas.
