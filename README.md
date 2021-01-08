@@ -10,7 +10,7 @@ This is an open source initiative made available to researchers, decision makers
 
 ## History
 
-This projects began as a voluntary initiative from some members of the Fundamentals and Teaching of Physics and Dynamical Systems Group (FEnFiSDi) from Universidad de Antioquia (UdeA) in March 2020 to bring our technical and theoretical skills on natural systems modelling to the emerging sanitary thread posed by the COVID-19 pandemic. After joining forces with the Epidemiology Group of UdeA and recruiting more members of orur research group, we begin a new face with funding from the National Ministry of Science and Technology and the National Learning Service. 
+This projects began as a voluntary initiative from some members of the Fundamentals and Teaching of Physics and Dynamical Systems Group (FEnFiSDi) from Universidad de Antioquia (UdeA) in March 2020 to bring our technical and theoretical skills on natural systems modelling to the emerging sanitary thread posed by the COVID-19 pandemic. After joining forces with the Epidemiology Group of UdeA and recruiting more members of orur research group, we begin a new phase with funding from the National Ministry of Science and Technology and the National Learning Service. 
 
 ### Why open source?
 
@@ -18,7 +18,7 @@ We believe in the transformative power science has in society. We are committed 
 
 ## Who we are
 
-We are the Fundamentals and Teaching of Physics and Dynamical Systems Group from Universidad de Antioquia in Medellin Colombia. Our work ranges from research to science education. Our research has centered on gene regulatory networks, evolution of behaviour, city dynamics, weather and infeormation theory. Visit our page for further information: [Fundamentos y Enseñanza de la Física y los Sistemas Dinámicos](https://fenfisdi.weebly.com)
+We are the Fundamentals and Teaching of Physics and Dynamical Systems Group from Universidad de Antioquia in Medellin Colombia. Our work ranges from research to science education. Our research has centered on gene regulatory networks, evolution of behaviour, city dynamics, weather and information theory. Visit our page for further information: [Fundamentos y Enseñanza de la Física y los Sistemas Dinámicos](https://fenfisdi.weebly.com)
 
 ### Team
 
