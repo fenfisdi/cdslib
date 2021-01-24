@@ -313,7 +313,7 @@ first word, with the rest of the letters in lowercase.
 
 Examples:
 
-> countWords
+> countWords  
 > increaseDifficultyLevel
 
 ### Pascal Case: ```CountElements```
@@ -324,7 +324,7 @@ without exceptions, the rest of the letters being in lowercase.
 
 Examples:
 
-> CountWords
+> CountWords  
 > IncreaseDifficultyLevel
 
 ### Snake Case: ```count_elements```
@@ -335,7 +335,7 @@ lowercase and one in which all the letters are lowercase.
 
 Examples:
 
-> count_words
+> count_words  
 > increase_difficulty_level
 
 ### Kebab Case: ```count-elements```
@@ -345,5 +345,5 @@ The letters will all be lowercase.
 
 Examples:
 
-> count-words
+> count-words  
 > increase-difficulty-level
