@@ -6,7 +6,10 @@ When contributing to this repository, please first discuss the change you
 wish to make via _issue_ or _discussion_ with the owners of this repository
 before making a change.
 
+## Table of contents
+
 - [Contributing](#contributing)
+  - [Table of contents](#table-of-contents)
   - [How to make a clean pull request](#how-to-make-a-clean-pull-request)
   - [Code guidelines](#code-guidelines)
     - [Modules](#modules)
