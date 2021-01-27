@@ -13,6 +13,21 @@ We encourage oher scientist to contribute to this project, so that complex
 models they produce are available not only for researching but for helping
 decision makers to take decisions based in the most advanced models.
 
+## Table of contents
+
+- [CDSLib](#cdslib)
+  - [Table of contents](#table-of-contents)
+  - [Available models](#available-models)
+    - [CDSLib_agents](#cdslib_agents)
+    - [CDSLib_cmodels](#cdslib_cmodels)
+  - [Architecture diagram](#architecture-diagram)
+  - [History](#history)
+    - [Why open source?](#why-open-source)
+  - [Who we are](#who-we-are)
+    - [Team](#team)
+  - [Sponsor information](#sponsor-information)
+  - [Future Work](#future-work)
+
 ## Available models
 
 ### CDSLib_agents
