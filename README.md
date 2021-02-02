@@ -20,6 +20,7 @@ decision makers to take decisions based in the most advanced models.
   - [Available models](#available-models)
     - [CDSLib_agents](#cdslib_agents)
     - [CDSLib_cmodels](#cdslib_cmodels)
+  - [How to contribute?](#how-to-contribute)
   - [Architecture diagram](#architecture-diagram)
   - [History](#history)
     - [Why open source?](#why-open-source)
@@ -41,6 +42,10 @@ scenarios, from small compartments to cities.
 The [CDSLib_cmodels](https://github.com/fenfisdi/cdslib_cmodels) module
 implements a dynamical deterministic model describing epidemics following
 a SEIRV model.
+
+## How to contribute?
+
+Please review our [contributing document](./contributing.md)
 
 ## Architecture diagram
 
