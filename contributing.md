@@ -321,8 +321,8 @@ directory.
 
 #### Docstring format
 
-In this project we use the NumPy-SciPy docstrings format.
-In any case, the docstring must contain at least the first-line general
+In this project we use the [NumPy-SciPy docstrings](https://numpydoc.readthedocs.io/en/latest/format.html)
+format. In any case, the docstring must contain at least the first-line general
 description. Depending on the object to be documented, it must also include:
 
 - *Functions and methods*:
