@@ -20,6 +20,8 @@ decision makers to take decisions based in the most advanced models.
   - [Available models](#available-models)
     - [CDSLib_agents](#cdslib_agents)
     - [CDSLib_cmodels](#cdslib_cmodels)
+  - [CDSLab](#cdslab)
+    - [CDSLab_auth](#cdslab_auth)
   - [How to contribute?](#how-to-contribute)
   - [Architecture diagram](#architecture-diagram)
   - [History](#history)
@@ -42,6 +44,15 @@ scenarios, from small compartments to cities.
 The [CDSLib_cmodels](https://github.com/fenfisdi/cdslib_cmodels) module
 implements a dynamical deterministic model describing epidemics following
 a SEIRV model.
+
+## CDSLab
+
+Web application
+
+### CDSLab_auth
+
+The [CDSLab_auth](https://github.com/fenfisdi/cdslab_auth) module
+implements an authentication API for CDSLab
 
 ## How to contribute?
 
