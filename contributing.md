@@ -30,6 +30,8 @@ before making a change.
       - [Methods and functions parameters](#methods-and-functions-parameters)
       - [Methods and functions names](#methods-and-functions-names)
       - [Methods and functions documentation](#methods-and-functions-documentation)
+    - [Documentation conventions](#documentation-conventions)
+      - [Docstring format](#docstring-format)
   - [Naming Conventions](#naming-conventions)
     - [Camel Case: ```countElements```](#camel-case-countelements)
     - [Pascal Case: ```CountElements```](#pascal-case-countelements)
@@ -274,6 +276,8 @@ Classes must not exceed 250 lines of code.
 #### Classes documentation
 
 All classes and their corresponding methods must have their own documentation.
+Please refer to [Documentation conventions](###documentation-conventions)
+section.
 
 ### Methods and functions
 
@@ -305,6 +309,34 @@ any question about what Snake Case means, please review
 
 All methods and functions must be properly documented, specifying the type of
 the parameters, their functionality and their return (if it has one).
+Please refer to [Documentation conventions](###documentation-conventions)
+section.
+
+### Documentation conventions
+
+The documentation of this project is developed using the
+[Sphinx framework](www.sphinx-doc.org).
+All files related to it can be accessed in the corresponding `~/docs`
+directory.
+
+#### Docstring format
+
+In this project we use the NumPy-SciPy docstrings format.
+In any case, the docstring must contain at least the first-line general
+description. Depending on the object to be documented, it must also include:
+
+- *Functions and methods*:
+
+  - List of parameters with the corresponding data types
+  - Return data type and description
+
+- *Classes*:
+
+  - List of attributes with descriptions
+  - All methods must be appropiately documented
+
+A good external reference to start with is
+[Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/).
 
 ## Naming Conventions
 
