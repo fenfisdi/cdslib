@@ -9,7 +9,7 @@ This projects aims to be a workplace for addressing different epidemic
 modelling frameworks, in order to tackle potential epidemics and related issues
 using open source high performance computing.
 
-We encourage oher scientist to contribute to this project, so that complex
+We encourage other scientist to contribute to this project, so that complex
 models they produce are available not only for researching but for helping
 decision makers to take decisions based in the most advanced models.
 
@@ -21,14 +21,20 @@ decision makers to take decisions based in the most advanced models.
     - [CDSLib_agents](#cdslib_agents)
     - [CDSLib_cmodels](#cdslib_cmodels)
   - [CDSLab](#cdslab)
+    - [Architectural diagram](#architectural-diagram)
     - [CDSLab_auth](#cdslab_auth)
+    - [CDSLab_management](#cdslab_management)
+    - [CDSLab_users_api](#cdslab_users_api)
+    - [CDSLab_cmodels_api](#cdslab_cmodels_api)
   - [How to contribute?](#how-to-contribute)
-  - [Architecture diagram](#architecture-diagram)
   - [History](#history)
     - [Why open source?](#why-open-source)
   - [Who we are](#who-we-are)
     - [Team](#team)
   - [Sponsor information](#sponsor-information)
+  - [Partners](#partners)
+    - [Intergrupo](#intergrupo)
+    - [Servinformación](#servinformación)
   - [Future Work](#future-work)
 
 ## Available models
@@ -47,20 +53,38 @@ a SEIRV model.
 
 ## CDSLab
 
-Web application
+This is the web application created for supporting the optimal deployment
+and use of CDSLib models for using High Performance Computing through
+[Google Cloud Platform](https://cloud.google.com/).
+
+### Architectural diagram
+
+![arch-diagram](./images/ArchitecturalDiagram-CDSLab-CDSLib.png "Architectural diagram for CDSLab + CDSLib")
 
 ### CDSLab_auth
 
 The [CDSLab_auth](https://github.com/fenfisdi/cdslab_auth) module
-implements an authentication API for CDSLab
+implements an authentication/authorization API for CDSLab.
+
+### CDSLab_management
+
+The [CDSLab_management](https://github.com/fenfisdi/cdslab_management) module
+implements an admin/settings API for CDSLab.
+
+### CDSLab_users_api
+
+The [CDSLab_users_api](https://github.com/fenfisdi/cdslab_users_api) module
+implements users' CRUD operations API for CDSLab.
+
+### CDSLab_cmodels_api
+
+The [CDSLab_cmodels_api](https://github.com/fenfisdi/cdslab_cmodels_api) module
+implements an API for CDSLab consumption of
+[CDSLib_agents](https://github.com/fenfisdi/cdslib_agents) module.
 
 ## How to contribute?
 
 Please review our [contributing document](./contributing.md)
-
-## Architecture diagram
-
-![arch-diagram](./images/ArchitecturalDiagram-CDSLab-CDSLib.png "Architectural diagram for CDSLab + CDSLib")
 
 ## History
 
@@ -116,6 +140,7 @@ Visit our page for further information:
 - Sofía Sánchez, Biology BSc Student
 - Andrea Sánchez, Public Health BSc Student
 - Ian Mejía, Physics BSc Student
+- Alejandro Campillo Barrios, Bioengineering BSc Student
 
 ## Sponsor information
 
@@ -123,6 +148,19 @@ For more information on our current sponsors visit:
 
 - [National Ministry of Science and Technology of Colombia](https://minciencias.gov.co/)
 - [National Learning Service (SENA)](https://www.sena.edu.co)
+
+## Partners
+
+Special thanks to our partners who contribute their expertise to develop this
+library and platform at a professional level.
+
+### Intergrupo
+
+[Intergrupo](https://intergrupo.com/)
+
+### Servinformación
+
+[Servinformación](https://servinformacion.com)
 
 ## Future Work
 

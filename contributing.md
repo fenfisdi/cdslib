@@ -96,7 +96,7 @@ document is alive and evolves through time.
 
 1. Imports from **standard library**.
 2. Imports from **third party libraries**.
-3. Local imports from our library.
+3. Local imports from our library (these ones separated from the former ones using one blank line).
 
 - At the end of the imports block, insert two blank lines:
 
@@ -107,6 +107,9 @@ import time
 import functools
 import numpy as np
 import pandas as pd
+# blank line
+from my_module1 import my_class1
+from my_module2 import my_function2
 # blank line
 # blank line
 class MyClass:
