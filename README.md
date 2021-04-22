@@ -80,7 +80,7 @@ implements users' CRUD operations API for CDSLab.
 
 The [CDSLab_cmodels_api](https://github.com/fenfisdi/cdslab_cmodels_api) module
 implements an API for CDSLab consumption of
-[CDSLib_agents](https://github.com/fenfisdi/cdslib_agents) module.
+[CDSLib_cmodels](https://github.com/fenfisdi/cdslib_cmodels) module.
 
 ## How to contribute?
 
@@ -149,9 +149,9 @@ For more information on our current sponsors visit:
 - [National Ministry of Science and Technology of Colombia](https://minciencias.gov.co/)
 - [National Learning Service (SENA)](https://www.sena.edu.co)
 
-## Partners
+## Providers
 
-Special thanks to our partners who contribute their expertise to develop this
+Special thanks to our providers who contribute their expertise to develop this
 library and platform at a professional level.
 
 ### Intergrupo
