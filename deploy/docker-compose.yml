@@ -1,0 +1,59 @@
+version: "3.5"
+services:
+  cdslab_auth_app:
+    build: .
+    container_name: cdslab_auth_app
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+      restart_policy:
+        condition: on-failure
+    image: fenfisdi/cdslab_auth:dev
+    env_file:
+      - auth_app.env
+    networks:
+      - cdslab_network
+    ports:
+      - 8080:8080
+
+  cdslab_user_app:
+    build: .
+    container_name: cdslab_user_app
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+      restart_policy:
+        condition: on-failure
+    image: fenfisdi/cdslab_user:dev
+    env_file:
+      - user_app.env
+    networks:
+      - cdslab_network
+
+  cdslab_user_mongo:
+    container_name: cdslab_user_mongo
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+      restart_policy:
+        condition: on-failure
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: cdsuser
+      MONGO_INITDB_ROOT_PASSWORD: cdspass
+    image: mongo:3-xenial
+    networks:
+      - cdslab_network
+
+networks:
+  cdslab_network:
+    name: cdslab_network
+    driver: overlay
